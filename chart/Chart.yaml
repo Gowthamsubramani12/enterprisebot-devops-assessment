@@ -1,0 +1,12 @@
+apiVersion: v2
+name: enterprisebot
+description: A production-quality Helm chart for the EnterpriseBot HTTP service
+type: application
+version: 0.1.0
+appVersion: "1.0.0"
+keywords:
+  - enterprisebot
+  - fastapi
+  - devops
+maintainers:
+  - name: Platform Engineering

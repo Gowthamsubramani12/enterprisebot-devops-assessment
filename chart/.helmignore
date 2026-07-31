@@ -1,0 +1,16 @@
+# Patterns to ignore when building packages.
+.helmignore
+# Git
+.git
+.gitignore
+# CI
+.github/
+# Editor files
+.vscode/
+.idea/
+# OS files
+.DS_Store
+# Docs
+*.md
+# Test files
+tests/

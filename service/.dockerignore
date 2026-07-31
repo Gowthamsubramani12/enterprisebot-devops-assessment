@@ -1,0 +1,17 @@
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.git
+.gitignore
+.venv
+venv
+.idea
+.vscode
+*.md
+*.egg-info
+dist
+build
+.DS_Store
+.env
+.envrc

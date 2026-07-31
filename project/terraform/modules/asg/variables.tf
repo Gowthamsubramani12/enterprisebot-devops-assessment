@@ -1,0 +1,14 @@
+variable "project_name"              { type = string }
+variable "environment"                { type = string }
+variable "ami_id"                     { type = string }
+variable "instance_type"              { type = string }
+variable "app_sg_id"                  { type = string }
+variable "private_subnet_ids"         { type = list(string) }
+variable "target_group_arn"           { type = string }
+variable "iam_instance_profile_name"  { type = string }
+variable "asg_min_size"               { type = number }
+variable "asg_max_size"               { type = number }
+variable "asg_desired_capacity"       { type = number }
+variable "app_port"                   { type = number }
+variable "ecr_repository_url"         { type = string }
+variable "aws_region"                 { type = string }

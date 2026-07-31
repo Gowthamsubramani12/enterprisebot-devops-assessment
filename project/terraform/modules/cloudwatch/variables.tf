@@ -1,0 +1,10 @@
+variable "project_name"             { type = string }
+variable "environment"               { type = string }
+variable "asg_name"                  { type = string }
+variable "alb_arn_suffix"            { type = string }
+variable "target_group_arn_suffix"   { type = string }
+variable "scale_out_policy_arn"      { type = string }
+variable "scale_in_policy_arn"       { type = string }
+variable "cpu_alarm_threshold"       { type = number }
+variable "alarm_evaluation_periods"  { type = number }
+variable "alarm_period_seconds"      { type = number }
